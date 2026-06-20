@@ -21,7 +21,7 @@ If you're the kind of person who visits [fast.com](https://fast.com) multiple ti
 ## Install
 
 ```bash
-brew install m-tse/speedcheck/speedcheck
+brew install m-tse/tap/speedcheck
 ```
 
 ## Update
@@ -38,8 +38,8 @@ brew update && brew upgrade --cask speedcheck
 ## Build from source
 
 ```bash
-git clone https://github.com/m-tse/SpeedCheckMacOS.git
-cd SpeedCheckMacOS
+git clone https://github.com/m-tse/SpeedCheck.git
+cd SpeedCheck
 chmod +x build.sh
 ./build.sh
 open "SpeedCheck.app"
